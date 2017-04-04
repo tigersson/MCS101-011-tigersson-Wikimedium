@@ -1,0 +1,40 @@
+.menubar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.menubar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/postimg/logo.svg);
+  background-size: cover;
+}
+
+.about {
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.about:hover {
+  color: rgba(0, 0, 0, 0.4);
+}

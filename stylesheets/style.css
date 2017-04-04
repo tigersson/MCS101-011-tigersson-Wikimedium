@@ -1,4 +1,10 @@
-@import "reset.css";
+@import "Reset.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i');
-
+@import "social-likes_birman.css";
 @import "layout.css";
+@import "sidebar.css";
+@import "article.css";
+@import "menubar.css";
+@import "posts.css";
+@import "landing.css";
+@import "ui.css";
